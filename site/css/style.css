@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding-top: 40px;
+}
+
+#header-nav {
+    background-color: #bbbbbb;
+    border-radius: 0;
+    border-bottom: none;
+    border: 1px solid #b0b0b0;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    font-family: 'Alfa Slab One';
+    font-size: 1.5em;
+    color: black;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#main-content{
+    padding-top: 30px;
+}
+
+#nav-list li{
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+    background-color: white;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;
+}
+
+.navbar-default .navbar-collapse {
+    margin-top:0px;
+    border: 0px;
+    list-style-type: none;
+}
+
+.menu-content{
+    background-color: #ededed;
+    margin-bottom: 30px;
+}
+
+.navbar-toggle.collapsed .icon-bar{
+    background-color: white;
+}
+.navbar-toggle.collapsed{
+    border-color: white;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #4c4c4c;
+}
+
+.navbar-toggle{
+    border-color: #4c4c4c;
+}
+
+.navbar-brand a{
+    color: #333;
+}
